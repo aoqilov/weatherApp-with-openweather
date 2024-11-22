@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="weather-app">
+      <header>
+        <h1>Weather App</h1>
+        <input type="text" placeholder="Enter city name..." id="city-input" />
+        <button id="search-btn">Search</button>
+      </header>
+      <main id="main">
+        <div class="weather-info">
+          <h2 class="city-name">City Name</h2>
+          <img
+            id="image-icon"
+            class="image-icon"
+            src="http://openweathermap.org/img/wn/13n@4x.png"
+            alt=""
+          />
+          <p class="temperature">--°C</p>
+          <p class="description">--</p>
+        </div>
+        <div class="additional-info">
+          <div>
+            <span>Humidity</span>
+            <p class="humidity">--%</p>
+          </div>
+          <div>
+            <span>Wind Speed</span>
+            <p class="wind-speed">-- km/h</p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>Made in Akiylov</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="base.js"></script>
+  </body>
+</html>
